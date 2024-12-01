@@ -1,0 +1,31 @@
+:root{
+    --primary: #008aaa;
+    --secondary: #d1884f;
+    --tertiary: #3bbadb;
+}
+
+.btn-outline-dark {
+    border-color: var(--secondary) !important;
+    color: var(--secondary) !important;
+}
+.btn-outline-dark:hover {
+    background-color: var(--secondary) !important;
+    color: #ffffff !important;
+}
+.nav-link{
+    font-size: 16px !important;
+    font-weight: 700 p !important;
+    color: var(--primary) !important;
+}
+.nav-link:hover{
+    color: var(--secondary) !important;
+}
+
+.badge{
+    background-color: var(--secondary) !important;
+}
+
+.profile-img{
+    width: 2000px;
+    height: 1000px;
+}
